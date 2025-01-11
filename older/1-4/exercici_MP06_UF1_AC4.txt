@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------
+ACTIVITAT AVALUABLE AC4
+--------------------------------------------------------------------------------
+Mòdul: MP06- Desenvolupament web en entorn client
+--------------------------------------------------------------------------------
+UF: UF1  -  Servidors web i de transferència de fitxers
+--------------------------------------------------------------------------------
+Professor: Albert Guardiola
+--------------------------------------------------------------------------------
+Data límit d'entrega: 28/10/2024 23:59
+--------------------------------------------------------------------------------
+Mètode d'entrega: Per mitjà del Clickedu de l'assignatura. Les activitats entregades més enllà de la data límit només podran obtenir una nota de 5.
+--------------------------------------------------------------------------------
+Instruccions: S'ha d'entregar un únic document amb el nom:
+--------------------------------------------------------------------------------
+	MP06-UF1-AC4-Nom_Alumne.js
+--------------------------------------------------------------------------------
+Es valorará la presentació.
+
+--------------------------------------------------------------------------------
+Resultats de l'aprenentatge: 
+--------------------------------------------------------------------------------
+RA1. Selecciona les arquitectures i tecnologies de programació sobre clients web, identificant i analitzant les capacitats i característiques de cadascuna.
+--------------------------------------------------------------------------------
+RA2. Escriu sentències simples, aplicant la sintaxi del llenguatge i verificant la seva execució sobre navegadors web.
+
+Tasca 1. Crea una funció createList1(data) que generi una llista UL/LI a dins de l'element #container de l'HTML a partir d'un objecte JSON sense aniuaments. Cada element de la llista ha tenir un id igual al seu text:
+
+JSON de mostra: 
+
+
+
+
+Resultat esperat: 
+
+
+
+Pista: recorda com s'iteren les claus d'un objecte...
+
+
+Tasca 2. Crea una funció createList2(data) que generi una llista ul-li a dins de l'element #container de l'HTML a partir d'un JSON amb un nivell d'aniuament. Cada element de la llista ha tenir un id igual al seu text i, a més, pertànyer a la classe mare corresponent (per exemple, "no voladoras" hauria de tenir id = "noVoladoras" i class="aves" :
+JSON de mostra: 
+
+
+
+
+
+
+
+
+
+Resultat esperat: 
+
+
+
+
+
+
+Pista: Object.keys(objecte).length retorna el número de claus presents a un objecte.
+
+
+TAREA 2B (OPVIONAL) Crea una funció createList3(data) que generi una llista ul-li a dins de l'element #container de l'HTML a partir d'un JSON amb qualsevol nivell d'aniuament.
+
+
+Tasca 3. Fes que el JSON amb que es treballa es mostri en un <textarea>, perquè pugui ser editat per l'usuari. La llista es generarà a partir del contingut del <textarea> quan es premi un botó "CONVERTIR".
+
+Tasca 4. Fes que l'usuari pugui triar el color del text de la llista a partir d'un input type="color".
+Pistes: per detectar el canvi de valor de l'input, fes servir l'event `input'.
+
+Tasca 5. Fes que l'usuari pugui marcar i desmarcar de color groc un element de la llista (background-color) quan cliqui sobre ell amb el ratolí.
+Pistes: pots modificar la funció createTree2 per afegir els listeners corresponents...
+
+Tasca 6. Fes que quan l'usuari cliqui sobre un element de la llista de la Tasca 2, aquest element es dupliqui.
+Per exemple, si cliquem sobre "ungulados"...
+ 
+
+
+
+
+
+Pistes: hauràs de clonar el node corresponent.
+
+Tasca 7. Fes que, quan l'usuari cliqui amb el botó dret sobre un element de la llista, l'element s'elimini.
+
+
+
+

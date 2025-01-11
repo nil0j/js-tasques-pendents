@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+ACTIVITAT AVALUABLE AC5
+--------------------------------------------------------------------------------
+Mòdul: MP06- Desenvolupament web en entorn client
+--------------------------------------------------------------------------------
+UF: UF1  -  Servidors web i de transferència de fitxers
+--------------------------------------------------------------------------------
+Professor: Albert Guardiola
+--------------------------------------------------------------------------------
+Data límit d'entrega: 30/10/2024 23:59
+--------------------------------------------------------------------------------
+Mètode d'entrega: Per mitjà del Clickedu de l'assignatura. Les activitats entregades més enllà de la data límit només podran obtenir una nota de 5.
+--------------------------------------------------------------------------------
+Instruccions: S'ha d'entregar un únic document amb el nom:
+--------------------------------------------------------------------------------
+	MP06-UF1-AC5-Nom_Alumne.js
+--------------------------------------------------------------------------------
+Es valorará la presentació.
+
+--------------------------------------------------------------------------------
+Resultats de l'aprenentatge: 
+--------------------------------------------------------------------------------
+RA1. Selecciona les arquitectures i tecnologies de programació sobre clients web, identificant i analitzant les capacitats i característiques de cadascuna.
+--------------------------------------------------------------------------------
+RA2. Escriu sentències simples, aplicant la sintaxi del llenguatge i verificant la seva execució sobre navegadors web.
+
+Tasca 1. Resol els fragments de codi que es demanen a ac5.js.
+
+
+
+
