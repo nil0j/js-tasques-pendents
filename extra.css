@@ -1,0 +1,23 @@
+body {
+    background-color: #ebebeb;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 6em;
+}
+
+h1 {
+    margin-top:2em;
+    font-size: 3em;
+    color: red;
+}
+
+img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+a.mainpage {
+    font-size: 2em;
+}
