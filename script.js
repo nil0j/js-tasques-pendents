@@ -6,10 +6,6 @@ https://risingthumb.xyz/Writing/Blog/Avoid_Hotlinking
 
 Hi havia problemes menors amb el CSS, l'HTML i el JS,
 pero no son tan importants.
-
-El 99% d'articles de Geeks for Geeks son copia+enganxa de posts
-de stack overflow, pero amb molta mes palla i tonteries per monetitzar.
-Considera no tornar a recomanar Geeks for Geeks.
 */
 
 window.onload = () => {
