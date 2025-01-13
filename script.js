@@ -4,8 +4,7 @@ El codi estava en castella, l'he hagut de reescriure.
 Considera llegir el seguent article sobre hotlinking:
 https://risingthumb.xyz/Writing/Blog/Avoid_Hotlinking
 
-Hi havia problemes menors amb el CSS, l'HTML i el JS,
-pero no son tan importants.
+He canviat el template per arreglar alguns problemes menors
 */
 
 window.onload = () => {
