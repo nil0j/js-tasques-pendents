@@ -30,7 +30,7 @@ console.log("ex 4", document.querySelectorAll('ul > li')[2])
 // let elementos = document.querySelector('li');
 // elementos[2].remove();
 //
-// there's 2 commands, not one
+// which one of the 2 commands?
 // - first one: gets the first element in the query
 // - second one: attempts to print the value of the index 2 (nonexistant)
 
@@ -38,7 +38,7 @@ console.log("ex 4", document.querySelectorAll('ul > li')[2])
 // let lista = document.querySelectorAll('ul');
 // lista.remove();
 //
-// again, there's 2 commands, not one
+// there's 2 commands, not one:
 // - first one: gets a nodelist that contains elements
 // - second one: attempts to call the function remove from nodelist (nonexistant)
 
@@ -52,7 +52,7 @@ Array.from(document.getElementsByTagName('ul')[0].childNodes).filter(node => nod
 
 // 9. Completa este código para que se ponga de color azul el hermano siguiente al primer elemento de la lista
 
-// this code CAN'T work, we need an extra li
+// we ran out of LIs
 {
     let li = document.createElement("li")
     li.textContent = "NO HAY MAS LIs"
@@ -61,7 +61,7 @@ Array.from(document.getElementsByTagName('ul')[0].childNodes).filter(node => nod
 }
 ////////////////////////////////////////////
 
-// annoying code line that cannot be removed
+// code line that cannot be removed
 let element = document.querySelector('li:first-child');
 
 // haskell-like operation to get the next LI
@@ -77,7 +77,7 @@ getNextLi(element).style.color="blue"
 // change of wording suggestion:
 // Completa este código para que se pongan de color azul el primer elemento de la lista y todos sus hermanos
 
-// annoying code line that cannot be removed
+// code line that cannot be removed
 let elemento = document.querySelector('li:first-child');
 
 // haskell-like operation to get all LIs
@@ -94,8 +94,8 @@ getAllSiblings(element).forEach(s => s.style.color="blue")
 // let titulo = document.querySelector('#titulo');
 // console.log(titulo.tema);
 
-// First of all, the first line of code is incompatible with exercise 2.
-// We can't access custom attributes this way because it would be stupid (imagine naming an attribute "appendChild").
+// The first line of code is incompatible with exercise 2.
+// Imagine creating a custom attribute named "innerHTML". It would be incompatible with the interpreter's rules, that's why we can't
 
 
 // 12. Saca por consola el valor del atributo 'tema' del #título
@@ -108,7 +108,7 @@ titulo.setAttribute("cfgs", "daw")
 
 // 14. Cambia el id del h3 sin utilizar el método setAttribute
 
-// Unnecessary change of wording. Wording suggestion:
+// Change of wording suggestion:
 // 14. Cambia el id del titulo sin utilizar el método setAttribute
 titulo.id = "title"
 
@@ -119,12 +119,12 @@ titulo.id = "title"
 //     elemento.className = "elem";
 // }
 
-// no, it replaces all classes for this one
+// No it doesn't, it replaces all classes for this one
 
 
 // 16. Añade correctamente a los elementos de la lista la clase "item"
 
-// are you sure this is what you wanted? item class, not element class?
+// Are you sure this is what you wanted? The item class, not the element class?
 Array.from(document.getElementsByClassName("item")).map(li => li.classList.add("item"))
 
 
@@ -134,12 +134,12 @@ Array.from(document.getElementsByClassName("item")).map(li => li.classList.add("
 // console.log(primerElemento.className);
 
 // The output is always correct, unless there's a bug in the interpreter.
-// i don't understand what is being asked here
+// I don't get what is being asked here
 
 
 // 18. Añade un Cuarto Elemento al final de la lista
 
-// *3rd element; remember when you made me remove the other ones?
+// *3rd element, we don't have that many
 {
     let li = document.createElement("li")
     li.textContent = "haz ver que este es el cuarto"

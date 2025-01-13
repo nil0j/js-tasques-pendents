@@ -1,5 +1,3 @@
-// DONE //
-
 function createList() {
     let ul = document.createElement("ul")
     

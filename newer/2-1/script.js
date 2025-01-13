@@ -10,8 +10,7 @@ async function loadScript(src) {
     })
 }
 
-// no tots els llenguatges d'alt nivell son no-bloquejants.
-// javascript es una excepcio, l'excepcio no fa la norma
+// Sobre el comentari al document: no tots els llenguatges d'alt nivell son no-bloquejants
 /* task2.1 */ async function sleep(miliseconds){
     await new Promise((resolve) => {setTimeout(resolve, miliseconds)});
 
